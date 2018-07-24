@@ -50,3 +50,7 @@ function makeInt(n){
 //     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
 //   })
 // })
+
+function preserveDecimal(n){
+  return parseFloat(n);
+}
