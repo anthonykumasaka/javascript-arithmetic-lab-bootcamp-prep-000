@@ -13,3 +13,19 @@
 // it('divide(a, b) divides a by b and returns the result', function() {
 //   expect(divide(a, b)).toEqual(a / b)
 // })
+
+function add(a, b){
+  return a + b
+}
+
+function subtact(a, b){
+  return a - b 
+}
+
+function multiply(a, b){
+  return a * b;
+}
+
+function divide(a, b){
+  return a / b; 
+}
