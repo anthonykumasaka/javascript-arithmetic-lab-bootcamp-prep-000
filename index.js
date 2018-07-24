@@ -22,3 +22,11 @@ function divide(a, b){
 // it('dec(n) decrements n and returns the result', function() {
 //   expect(dec(a)).toEqual(a - 1)
 // })
+
+function inc(n){
+  return n++;
+}
+
+function dec(n){
+  return n--; 
+}
